@@ -1,0 +1,124 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+p {
+  padding: 5px;
+}
+h4 {
+  padding-top: 10px;
+}
+.bilgiler img {
+  padding: 10px;
+  border-radius: 20px;
+}
+body {
+background-image: url("bg2.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+header {
+display: flex;
+  background-color: rgba(0, 0, 139, 0.486);
+justify-content: space-between;
+height: 100px;
+color: antiquewhite;
+}
+.bilgiler{
+ display:flex ; 
+}
+.bilgiler p{
+  padding-top: 20px ; 
+ }
+.sekme {
+  font-size: 0;
+  padding-top: 50px;
+}
+.sekme li {
+  font-size: 17px;
+  list-style: none;
+display: inline;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: transparent;
+  transition: all 800ms;
+}
+.sekme li:hover {
+  font-weight: bold;
+  cursor: pointer;
+  color:black ;
+}
+.sekme li.aktif {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+  background: linear-gradient(90deg, rgba(0, 0, 139, 1) 30%, rgb(71, 140, 197) 100%);
+}
+.icerik {
+  padding: 20px 10px;
+ text-align: center;
+}
+.container { 
+padding-top:20px ;
+width: 80%;
+margin-left: 10%;
+height: 60vh;
+color: antiquewhite;
+font-size: large;
+}
+.ref{
+  float: right;
+padding-right: 250px;
+}
+footer {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-evenly;
+padding-top:10px ;
+}
+.YtnkSag {
+  float: right;
+}
+.icerikYtnk div {
+  position: relative;
+  width: 500px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: transparent;
+}
+.icerikYtnk span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  border-radius: 40px;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(0, 0, 139, 0.486) 70%, rgb(71, 140, 197) 100%);
+  transition: width .5s linear;
+}
+.icerikDnym {
+  text-align: center;
+  padding: 60px;
+}
+button {
+  padding: 20px;
+  border-radius: 30px;
+  background: transparent;
+  font-size: 20px;
+  border: none;
+  color: antiquewhite;
+  transition: all 1s;
+}
+button:hover{
+  background: linear-gradient(90deg, rgba(0, 0, 139, 0.486) 70%, rgb(71, 140, 197) 100%);
+font-weight: bold;
+color: black;
+  cursor: pointer;
+}
